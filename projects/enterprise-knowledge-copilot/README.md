@@ -1,6 +1,6 @@
-# Enterprise Knowledge Copilot (RAG)
+# 🧠 Enterprise Knowledge Copilot (RAG System)
 
-## Problem
+## 🚨 Problem Statement
 Enterprise knowledge is fragmented across multiple systems (SharePoint, Confluence, emails), causing:
 - Slow information retrieval
 - Inconsistent answers
@@ -19,7 +19,7 @@ Enterprise knowledge is fragmented across multiple systems (SharePoint, Confluen
 Enable employees to **query enterprise knowledge using natural language**, with accurate, trustworthy, and context-aware responses.
 
 
-## Solution Overview
+## 💡 Solution Overview
 A **Retrieval-Augmented Generation (RAG) system** that:
 1. Retrieves relevant enterprise documents
 2. Uses LLMs to generate grounded answers
@@ -27,17 +27,24 @@ A **Retrieval-Augmented Generation (RAG) system** that:
 
 ---
 
-## Architecture
-- Ingestion
-- Embeddings
-- Vector DB
-- LLM
+## 🏗️ System Architecture
+User Query
+↓
+Retriever (Vector DB)
+↓
+Top-K Documents
+↓
+LLM Generation
+↓
+Answer + Citations
 
 ---
 
 ## Metrics
 - +80% retrieval speed
 - +30% accuracy
+
+---
 
 ### Components:
 - Data ingestion pipeline (documents → chunks)
