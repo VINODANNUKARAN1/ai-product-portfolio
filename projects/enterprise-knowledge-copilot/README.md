@@ -27,16 +27,22 @@ A **Retrieval-Augmented Generation (RAG) system** that:
 
 ---
 
-## 🏗️ System Architecture
-User Query
-↓
-Retriever (Vector DB)
-↓
-Top-K Documents
-↓
-LLM Generation
-↓
-Answer + Citations
+## 🏗️ Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[User Query] --> B[Query Processing]
+    B --> C[Retriever - Vector DB]
+    C --> D[Top K Documents]
+    D --> E[Context Builder]
+    E --> F[LLM Generator]
+    F --> G[Answer + Citations]
+
+    subgraph Data Pipeline
+        H[Documents] --> I[Chunking]
+        I --> J[Embeddings]
+        J --> C
+    end
 
 ---
 
