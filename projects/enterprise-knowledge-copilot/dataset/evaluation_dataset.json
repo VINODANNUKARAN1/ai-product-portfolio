@@ -1,1 +1,15 @@
-
+[
+  {
+    "query": "What is refund policy?",
+    "ground_truth": "Refunds within 30 days",
+    "predicted_answer": "Customers can request refunds within 30 days",
+    "score": 0.9
+  },
+  {
+    "query": "How to reset password?",
+    "ground_truth": "Reset using email",
+    "predicted_answer": "Use email verification to reset password",
+    "score": 0.95
+  }
+]
+``
