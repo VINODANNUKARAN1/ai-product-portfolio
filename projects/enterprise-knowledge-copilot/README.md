@@ -1,5 +1,10 @@
 # 🧠 Enterprise Knowledge Copilot (RAG System)
 
+## 🚀 Overview
+An AI-powered enterprise assistant that enables users to query internal knowledge using natural language, powered by Retrieval-Augmented Generation (RAG).
+
+---
+
 ## 🚨 Problem Statement
 Enterprise knowledge is fragmented across multiple systems (SharePoint, Confluence, emails), causing:
 - Slow information retrieval
@@ -8,16 +13,17 @@ Enterprise knowledge is fragmented across multiple systems (SharePoint, Confluen
 
 ---
 
-## 👥 Target Users
-- Customer support agents
-- Operations teams
-- Internal analysts
-
----
-
 ## 🎯 Product Vision
 Enable employees to **query enterprise knowledge using natural language**, with accurate, trustworthy, and context-aware responses.
 
+---
+
+## 👥 Target Users
+- Customer support agents
+- Operations teams
+- Business analysts
+
+---
 
 ## 💡 Solution Overview
 A **Retrieval-Augmented Generation (RAG) system** that:
