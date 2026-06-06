@@ -1,1 +1,10 @@
-
+[
+  {
+    "query": "What is the refund policy?",
+    "expected_answer": "Refunds within 30 days"
+  },
+  {
+    "query": "How long is shipping?",
+    "expected_answer": "5-7 business days"
+  }
+]
