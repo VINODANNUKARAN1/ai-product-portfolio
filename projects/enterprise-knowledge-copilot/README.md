@@ -1,35 +1,52 @@
 # 🧠 Enterprise Knowledge Copilot (RAG System)
 
 ## 🚀 Overview
-An AI-powered enterprise assistant that enables users to query internal knowledge using natural language, powered by Retrieval-Augmented Generation (RAG).
+An AI-powered enterprise assistant that enables employees to query internal knowledge using natural language.
+
+This system leverages **Retrieval-Augmented Generation (RAG)** to provide **accurate, grounded, and contextual responses** from enterprise data sources.
 
 ---
 
 ## 🚨 Problem Statement
-Enterprise knowledge is fragmented across multiple systems (SharePoint, Confluence, emails), causing:
-- Slow information retrieval
-- Inconsistent answers
-- Reduced employee productivity
+Enterprise knowledge is distributed across multiple systems:
+- SharePoint
+- Confluence
+- Emails
+- Internal tools
+
+This leads to:
+- ⏳ Slow information retrieval
+- ❌ Inconsistent answers
+- 📉 Reduced productivity
 
 ---
 
 ## 🎯 Product Vision
-Enable employees to **query enterprise knowledge using natural language**, with accurate, trustworthy, and context-aware responses.
+Enable employees to:
+- Ask questions in natural language
+- Receive accurate, contextual responses
+- Trust answers with citations
+
+> Goal: Reduce time-to-information and improve decision-making efficiency
 
 ---
 
 ## 👥 Target Users
-- Customer support agents
-- Operations teams
-- Business analysts
+- Customer Support Agents  
+- Operations Teams  
+- Business Analysts 
 
 ---
 
 ## 💡 Solution Overview
-A **Retrieval-Augmented Generation (RAG) system** that:
-1. Retrieves relevant enterprise documents
-2. Uses LLMs to generate grounded answers
-3. Provides citations for trust
+
+This system implements a **RAG pipeline**:
+
+1. User submits a query  
+2. Relevant documents are retrieved  
+3. LLM generates response using context  
+4. Answer is returned with citations
+
 
 ---
 
@@ -125,19 +142,21 @@ Transforms enterprise knowledge access into a **fast, reliable, AI-driven experi
 ## 🏗️ Architecture Diagram
 
 ```mermaid
+
 flowchart TD
     A[User Query] --> B[Query Processing]
-    B --> C[Retriever / Vector DB]
+    B --> C[Vector DB Retrieval]
     C --> D[Top K Documents]
     D --> E[Context Builder]
-    E --> F[LLM Generator]
-    F --> G[Answer with Citations]
+    E --> F[LLM Generation]
+    F --> G[Final Answer + Citations]
 
     subgraph DataPipeline
-        H[Documents] --> I[Chunking]
+        H[Enterprise Docs] --> I[Chunking]
         I --> J[Embeddings]
         J --> C
     end
+
 
 
 
