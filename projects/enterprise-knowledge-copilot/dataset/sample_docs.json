@@ -1,1 +1,18 @@
-
+```json
+[
+  {
+    "id": "doc1",
+    "title": "Refund Policy",
+    "content": "Customers can request refunds within 30 days."
+  },
+  {
+    "id": "doc2",
+    "title": "Shipping Policy",
+    "content": "Orders are delivered within 5-7 business days."
+  },
+  {
+    "id": "doc3",
+    "title": "Account Help",
+    "content": "Users can reset passwords using email verification."
+  }
+]
