@@ -27,25 +27,6 @@ A **Retrieval-Augmented Generation (RAG) system** that:
 
 ---
 
-## 🏗️ Architecture Diagram
-
-```mermaid
-flowchart TD
-    A[User Query] --> B[Query Processing]
-    B --> C[Retriever Vector DB]
-    C --> D[Top K Documents]
-    D --> E[Context Builder]
-    E --> F[LLM Generator]
-    F --> G[Answer with Citations]
-
-    subgraph DataPipeline
-        H[Documents] --> I[Chunking]
-        I --> J[Embeddings]
-        J --> C
-    end
-
-
-
 
 ## Metrics
 - +80% retrieval speed
@@ -132,4 +113,26 @@ flowchart TD
 
 ## Why This Matters
 Transforms enterprise knowledge access into a **fast, reliable, AI-driven experience**, improving productivity at scale.
+
+----
+
+## 🏗️ Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[User Query] --> B[Query Processing]
+    B --> C[Retriever / Vector DB]
+    C --> D[Top K Documents]
+    D --> E[Context Builder]
+    E --> F[LLM Generator]
+    F --> G[Answer with Citations]
+
+    subgraph DataPipeline
+        H[Documents] --> I[Chunking]
+        I --> J[Embeddings]
+        J --> C
+    end
+
+
+
 
