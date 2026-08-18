@@ -6,7 +6,7 @@ Support teams spend 40% of their time answering repetitive questions that are al
 **Target:** Reduce support ticket volume by 60% through AI-powered self-service Q&A.
 
 ## Live Demo
-🔗 [Try it here](YOUR_STREAMLIT_URL) — Upload any PDF and ask questions!
+🔗 **Demo:** Run locally — see "How to Run" section below.
 
 ## Solution
 A Retrieval Augmented Generation (RAG) chatbot that:
@@ -66,7 +66,7 @@ A Retrieval Augmented Generation (RAG) chatbot that:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/ai-enterprise-knowledge-assistant.git
+git clone https://github.com/VINODANNUKARAN1/ai-product-portfolio.git
 cd ai-enterprise-knowledge-assistant
 
 # 2. Install dependencies
