@@ -67,7 +67,7 @@ A Retrieval Augmented Generation (RAG) chatbot that:
 ```bash
 # 1. Clone the repo
 git clone https://github.com/VINODANNUKARAN1/ai-product-portfolio.git
-cd ai-enterprise-knowledge-assistant
+cd ai-enterprise-knowledge-copilot
 
 # 2. Install dependencies
 pip install -r requirements.txt
