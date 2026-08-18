@@ -1,26 +1,41 @@
-# Vinod Kunhi Krishnan Annukaran – Principal AI Product Manager
+# Vinod Annukaran — AI Product Manager Portfolio
 
-Principal Product Manager | AI & Data Platforms | Scaling Enterprise Systems Globally | Ex-Deloitte | Data Science (UM)
+**Senior Product Manager | AI & Data Products | 30+ Global Markets | MSc Data Science (UM, 2025)**
 
-## About Me
-Product leader with 20+ years in engineering and product, specializing in AI-driven enterprise platforms.
+## About
+Product leader with 9+ years of progressive product ownership and a Master's in Data Science.
+This portfolio demonstrates AI product thinking: architecture decisions, business translation,
+safety/governance, and measurement frameworks.
 
 ## Featured Projects
-- Enterprise Knowledge Copilot (RAG System)
-- AI Data Quality Intelligence Engine
-- Agentic Workflow Automation System
+
+| # | Project | Key AI Skill | Demo |
+|---|---------|-------------|------|
+| 1 | [Enterprise Knowledge Assistant (RAG)](./project1-rag-chatbot/) | RAG Architecture, LLM Applications | [Live Demo](#) |
+| 2 | [AI Customer Intelligence Platform](./project2-customer-segmentation/) | ML Segmentation, Business Strategy | [Live Demo](#) |
+| 3 | [AI Recommendation Engine](./project4-recommendation-engine/) | Hybrid RecSys, Fairness, A/B Testing | [Live Demo](#) |
+| 4 | [AI Product Metrics Dashboard](./project5-metrics-dashboard/) | 4-Quadrant AI Measurement | [Live Demo](#) |
+
+## Hackathon
+**"Nak Nak" AI Elder Care System — Global AI Hackathon 2026 (TOP 10 / 500+ teams)**
+- Multi-agent AI (4 Claude-powered agents), NeMo Guardrails, 90% safety score
+- Singapore-specific: CPF, DBS/OCBC APIs, multilingual
 
 ## What I Demonstrate
-- AI Product Strategy  
-- End-to-End Ownership  
-- Model + UX + Data Integration  
-- Evaluation & Governance  
+- AI Product Strategy & Architecture Decisions
+- ML-to-Business Translation (not just models — what to DO with them)
+- Responsible AI (safety, fairness, governance)
+- AI Product Measurement (beyond accuracy)
+- End-to-End Ownership (problem → solution → metrics)
 
-## Key Metrics Across Projects
-- ↑ Query resolution: +80%
-- ↓ Data incidents: -45%
-- ↑ Productivity: +35%
+## Key Metrics
+- 🎯 RAG: 75%+ resolution rate, <3s response, <$0.02/query
+- 📊 Segmentation: 5 segments → actionable strategy + ROI projections (1.5-3x)
+- 🛍️ Recommendations: CTR +53%, AOV +29%, Revenue/User +98% (A/B test)
+- 📈 Metrics: 4-quadrant framework tracking model + business + trust + ops
+
+## Tech Stack
+Python | LangChain | ChromaDB | Scikit-learn | Streamlit | Plotly | HuggingFace
 
 ## Contact
-https://www.linkedin.com/in/vinod-annukaran/ | vinodannukaran@gmail.com
-``
+📧 vinodakk@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/vinod-annukaran) | 📍 Singapore-Ready
