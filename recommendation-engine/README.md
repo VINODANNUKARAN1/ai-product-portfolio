@@ -6,7 +6,7 @@ E-commerce platforms lose 30-40% potential revenue by showing generic "best sell
 **Target:** Demonstrate enterprise recommendation system product thinking — not just the algorithm, but the FULL product system (cold-start, fairness, business rules, A/B testing).
 
 ## Live Demo
-[Try it here](YOUR_STREAMLIT_URL) — Select a user and see personalized recommendations with explainability.
+**Demo:** Run locally — see "How to Run" section below.
 
 ## What Makes This Different
 Most recommendation demos show ONLY the algorithm. This shows the **complete PM perspective:**
@@ -74,8 +74,8 @@ Most recommendation demos show ONLY the algorithm. This shows the **complete PM 
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/ai-recommendation-engine.git
-cd ai-recommendation-engine
+git clone https://github.com/VINODANNUKARAN1/ai-product-portfolio.git
+cd recommendation-engine
 
 # 2. Install
 pip install -r requirements.txt
