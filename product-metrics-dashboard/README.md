@@ -6,7 +6,7 @@ AI products fail when teams track ONLY model accuracy. A model with 95% precisio
 **Insight:** AI products need 4 metric categories tracked simultaneously — not just "is the model accurate?"
 
 ## Live Demo
-[Try it here](YOUR_STREAMLIT_URL) — Monitor a simulated AI recommendation engine in production.
+**Demo:** Run locally — see "How to Run" section below.
 
 ## The 4-Quadrant Measurement Framework
 
@@ -78,8 +78,8 @@ AI products fail when teams track ONLY model accuracy. A model with 95% precisio
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/ai-product-metrics-dashboard.git
-cd ai-product-metrics-dashboard
+git clone https://github.com/VINODANNUKARAN1/ai-product-portfolio.git
+cd product-metrics-dashboard
 
 # 2. Install
 pip install -r requirements.txt
