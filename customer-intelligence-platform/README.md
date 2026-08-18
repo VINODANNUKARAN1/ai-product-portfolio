@@ -6,7 +6,7 @@ Companies have millions of customers but treat them identically. Personalized st
 **Target:** Transform raw transaction data into business strategy — demonstrating how a PM bridges data science and commercial impact.
 
 ## Live Demo
-[Try it here](YOUR_STREAMLIT_URL) — Explore 1,000+ customers segmented by AI with real-time business recommendations.
+**Demo:** Run locally — see "How to Run" section below.
 
 ## What Makes This Different
 Most data scientists stop at clusters. This platform goes further:
@@ -53,8 +53,8 @@ Most data scientists stop at clusters. This platform goes further:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/ai-customer-intelligence.git
-cd ai-customer-intelligence
+git clone https://github.com/VINODANNUKARAN1/ai-product-portfolio.git
+cd customer-intelligence-platform
 
 # 2. Install dependencies
 pip install -r requirements.txt
