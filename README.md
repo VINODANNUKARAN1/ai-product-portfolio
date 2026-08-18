@@ -1,4 +1,4 @@
-# Vinod Annukaran — AI Product Manager Portfolio
+# Vinod Kunhi Krishnan Annukaran — AI Product Manager Portfolio
 
 **Senior Product Manager | AI & Data Products | 30+ Global Markets | MSc Data Science (UM, 2025)**
 
