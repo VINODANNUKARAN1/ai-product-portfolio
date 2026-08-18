@@ -38,4 +38,4 @@ safety/governance, and measurement frameworks.
 Python | LangChain | ChromaDB | Scikit-learn | Streamlit | Plotly | HuggingFace
 
 ## Contact
-📧 vinodakk@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/vinod-annukaran) | 📍 Singapore-Ready
+📧 vinodannukaran@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/vinod-annukaran) | 📍 Singapore-Ready
