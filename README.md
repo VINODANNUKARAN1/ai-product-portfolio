@@ -19,8 +19,7 @@ safety/governance, and measurement frameworks.
 | 5 | [AI PM Toolkit (Frameworks)](./ai-pm-toolkit/) | PRD Templates, RICE-AI, Evaluation Scorecards | — |
 
 ## Hackathon
-
-**"Nak Nak" AI Elder Care System — Global AI Hackathon 2026 (TOP 10 / 500+ teams)**
+**["Nak Nak" AI Elder Care System](./nak-nak-hackathon/) — Global AI Hackathon 2026 (TOP 10 / 110 teams)**
 - Multi-agent AI (4 Claude-powered agents), NeMo Guardrails, 90% safety score
 - Singapore-specific: CPF, DBS/OCBC APIs, multilingual
 
