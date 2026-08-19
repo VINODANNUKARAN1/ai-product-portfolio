@@ -1,7 +1,7 @@
 
 # 🏆 Nak Nak — AI Elder Care System
 
-**Global AI Hackathon Singapore 2026 — TOP 10 Finalist (out of 500+ teams)**
+**Tencent Global AI Hackathon Singapore 2026 — TOP 10 Finalist (out of 110 teams)**
 
 ## Overview
 Voice-enabled multi-agent AI system addressing Singapore's $4.2T Silver Economy — designed to be the 24/7 intelligent companion for elderly living alone.
