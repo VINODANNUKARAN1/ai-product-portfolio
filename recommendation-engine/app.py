@@ -120,14 +120,17 @@ with tab1:
     
     # Get user's purchase history
     user_history = interactions[interactions['user_id'] == selected_user]
-    user_products = user_history.merge(products, on='product_id')
+    user_products = user_history.merge(products, on='product_id', suffixes=('_user', ''))
     
     col1, col2 = st.columns([1, 2])
     
     with col1:
         st.subheader("Purchase History")
-        st.dataframe(user_products[['name', 'category', 'price', 'rating']].head(10),
-                     use_container_width=True, hide_index=True)
+            display_cols = [c for c in ['name', 'category', 'price', 'rating'] if c in user_products.columns]
+    if not display_cols:
+        display_cols = [c for c in user_products.columns if c not in ['user_id', 'product_id', 'purchased']][:4]
+    st.dataframe(user_products[display_cols].head(10),
+
     
     with col2:
         st.subheader(f"Top {n_recommendations} Recommendations")
