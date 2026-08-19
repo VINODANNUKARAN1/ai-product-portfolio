@@ -7,7 +7,7 @@
 Voice-enabled multi-agent AI system addressing Singapore's $4.2T Silver Economy — designed to be the 24/7 intelligent companion for elderly living alone.
 
 ## Architecture & Tech Stack
-![SilverCare Architecture](./SilverCare_TechStak.png)
+![SilverCare Architecture](./SilverCare_TechStack.png)
 
 ## Key Features
 - **4 Claude-powered AI Agents:** Emergency, Health, Finance, Personal
