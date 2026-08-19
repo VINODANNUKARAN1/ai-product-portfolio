@@ -124,10 +124,10 @@ with tab1:
     
     col1, col2 = st.columns([1, 2])
     
-   with col1:
-    st.subheader("Purchase History")
-    st.dataframe(user_products[[c for c in ['name', 'category', 'price'] if c in user_products.columns]].head(10), use_container_width=True, hide_index=True)
-           
+    with col1:
+        st.subheader("Purchase History")
+        st.dataframe(user_products[[c for c in ['name', 'category', 'price'] if c in user_products.columns]].head(10), use_container_width=True, hide_index=True)
+
     with col2:
         st.subheader(f"Top {n_recommendations} Recommendations")
         
